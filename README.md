@@ -1,1 +1,1 @@
-# educa-o-digital
+# educa-o-digit
