@@ -1,0 +1,134 @@
+/* Resets Básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background-color: #111827;
+    color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 4px solid #e11d48;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #e11d48;
+}
+
+/* Cartão da Notícia */
+.news-card {
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.category {
+    display: inline-block;
+    background-color: #ffe4e6;
+    color: #e11d48;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 2.2rem;
+    color: #111827;
+    line-height: 1.25;
+    margin-bottom: 15px;
+}
+
+.lead {
+    font-size: 1.2rem;
+    color: #4b5563;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.author-info {
+    font-size: 0.9rem;
+    color: #6b7280;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+/* Imagem */
+.image-container {
+    margin-bottom: 25px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.caption {
+    display: block;
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* Conteúdo da Notícia */
+.content p {
+    font-size: 1.05rem;
+    margin-bottom: 18px;
+    color: #374151;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .news-card {
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+}
